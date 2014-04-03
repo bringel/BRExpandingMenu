@@ -16,8 +16,10 @@ NS_ENUM(NSInteger, BRExpandingMenuState){
 
 @protocol BRSidebarViewController <NSObject>
 
+@required
+
 @property (nonatomic, weak) BRExpandingViewController *expandingViewController;
-@property (nonatomic) enum BRExpandingMenuState *menuState;
+@property (nonatomic) enum BRExpandingMenuState menuState;
 
 - (void)sidebarWillOpen;
 - (void)sidebarDidOpen;
@@ -28,8 +30,10 @@ NS_ENUM(NSInteger, BRExpandingMenuState){
 
 @protocol BRContentViewController <NSObject>
 
+@required
+
 @property (nonatomic, weak) BRExpandingViewController *expandingViewController;
-@property (nonatomic) enum BRExpandingMenuState *menuState;
+@property (nonatomic) enum BRExpandingMenuState menuState;
 
 - (void)sidebarWillOpen;
 - (void)sidebarDidOpen;
@@ -42,6 +46,9 @@ NS_ENUM(NSInteger, BRExpandingMenuState){
 
 @property (nonatomic, strong) UIViewController<BRSidebarViewController> *sidebarVC;
 @property (nonatomic, strong) UIViewController<BRContentViewController> *contentVC;
+@property (nonatomic) enum BRExpandingMenuState menuState;
+@property (nonatomic, weak) IBOutlet UIView *sidebarView;
+@property (nonatomic, weak) IBOutlet UIView *contentView;
 
 - (BOOL)shouldOpenSidebar:(UIViewController *)sender;
 - (BOOL)shouldCloseSidebar:(UIViewController *)sender;

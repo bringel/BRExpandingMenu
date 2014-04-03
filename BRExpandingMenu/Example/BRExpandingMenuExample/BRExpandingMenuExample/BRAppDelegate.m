@@ -7,14 +7,16 @@
 //
 
 #import "BRAppDelegate.h"
+#import "BRExpandingViewController.h"
+#import "BRSampleContentViewController.h"
+#import "BRSampleSidebarViewController.h"
 
 @implementation BRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    BRExpandingViewController *expandingViewController = (BRExpandingViewController *)[self.window rootViewController];
     [self.window makeKeyAndVisible];
     return YES;
 }

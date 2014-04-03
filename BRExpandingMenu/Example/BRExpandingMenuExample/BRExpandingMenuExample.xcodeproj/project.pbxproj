@@ -16,6 +16,8 @@
 		2F71203918E8599500624BBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F71203818E8599500624BBA /* Images.xcassets */; };
 		2F71205718E85DEE00624BBA /* BRExpandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F71205618E85DEE00624BBA /* BRExpandingViewController.m */; };
 		2F71205918E85E6400624BBA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F71205818E85E6400624BBA /* Main_iPad.storyboard */; };
+		2F71205C18ECF17800624BBA /* BRSampleSidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F71205B18ECF17800624BBA /* BRSampleSidebarViewController.m */; };
+		2F71205F18ECF18900624BBA /* BRSampleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F71205E18ECF18900624BBA /* BRSampleContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		2F71205518E85DEE00624BBA /* BRExpandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRExpandingViewController.h; path = ../../../Classes/BRExpandingViewController.h; sourceTree = "<group>"; };
 		2F71205618E85DEE00624BBA /* BRExpandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRExpandingViewController.m; path = ../../../Classes/BRExpandingViewController.m; sourceTree = "<group>"; };
 		2F71205818E85E6400624BBA /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		2F71205A18ECF17800624BBA /* BRSampleSidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSampleSidebarViewController.h; sourceTree = "<group>"; };
+		2F71205B18ECF17800624BBA /* BRSampleSidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSampleSidebarViewController.m; sourceTree = "<group>"; };
+		2F71205D18ECF18900624BBA /* BRSampleContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSampleContentViewController.h; sourceTree = "<group>"; };
+		2F71205E18ECF18900624BBA /* BRSampleContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSampleContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				2F71205518E85DEE00624BBA /* BRExpandingViewController.h */,
 				2F71205618E85DEE00624BBA /* BRExpandingViewController.m */,
 				2F71205818E85E6400624BBA /* Main_iPad.storyboard */,
+				2F71205A18ECF17800624BBA /* BRSampleSidebarViewController.h */,
+				2F71205B18ECF17800624BBA /* BRSampleSidebarViewController.m */,
+				2F71205D18ECF18900624BBA /* BRSampleContentViewController.h */,
+				2F71205E18ECF18900624BBA /* BRSampleContentViewController.m */,
 			);
 			path = BRExpandingMenuExample;
 			sourceTree = "<group>";
@@ -166,7 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F71205F18ECF18900624BBA /* BRSampleContentViewController.m in Sources */,
 				2F71203718E8599500624BBA /* BRAppDelegate.m in Sources */,
+				2F71205C18ECF17800624BBA /* BRSampleSidebarViewController.m in Sources */,
 				2F71203318E8599500624BBA /* main.m in Sources */,
 				2F71205718E85DEE00624BBA /* BRExpandingViewController.m in Sources */,
 			);
